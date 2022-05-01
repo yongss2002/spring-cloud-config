@@ -8,8 +8,11 @@ token:
   expiration_time: 86400000
   secret: my_token
 
+gateway:
+  ip: 172.18.0.3
+
 order_service:
   # url: http://127.0.0.1:8000/order-service/%s/orders
   url: http://ORDER-SERVICE/order-service/%s/orders
   exception:
-    order_is_empty: User's order is empty.
+    order_is_empty: User's order is empty. 
